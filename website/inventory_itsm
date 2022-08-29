@@ -1,1 +1,2 @@
-52.140.57.198
+[test]
+52.140.57.198 ansible_ssh_user=ansible
