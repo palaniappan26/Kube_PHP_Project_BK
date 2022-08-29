@@ -1,2 +1,3 @@
+-name: delete old and execute docker run in test node
 docker -rm my-php-app --
 docker run -dit --name my-php-app -p 8081:8080 10.1.0.1:500/my-php-app:latest
