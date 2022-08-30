@@ -1,7 +1,7 @@
 - name: PHP service playbook
   hosts: test
-    become: yes
-    become_user: root
+    #become: yes
+    #become_user: root
   tasks:
     - name: delete old con and create new container test srv
       shell: sudo docker rm my-php-app
