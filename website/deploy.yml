@@ -1,5 +1,6 @@
 - hosts: test
   tasks:
     - name: delete old and execute docker run in test node
-      shell: sudo docker rm my-php-app
-      shell: sudo docker run -dit --name my-php-app -p 8081:8080 52.140.57.198:5000/my-php-app:"{{ tag }}"
+      #shell: sudo docker rm my-php-app
+      #shell: sudo docker run -dit --name my-php-app -p 8081:8080 52.140.57.198:5000/my-php-app:"{{ tag }}"
+      shell: df -h
