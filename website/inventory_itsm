@@ -1,2 +1,2 @@
 [test]
-52.140.57.198 ansible_ssh_user=ansible
+52.140.57.198 ansible_ssh_user=ansible ansible_ssh_pass=Ath@pp@n12345
