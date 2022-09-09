@@ -7,13 +7,14 @@
       #shell: docker rm -f my-php-app        
       #shell: docker rm -f my-php-app && docker run -dt --name my-php-app -p 8081:80 52.140.57.198:5000/my-php-app:"{{ tag }}"
       shell: pwd
-      shell: kubectl apply -f .
-      delegate_to: localhost
+        #shell: kubectl apply -f .
+        #delegate_to: localhost
   tasks:
     - name: remote command
       shell: df -h
 
 
-- name: k8s deploy create
-    tasks:
-    shell: kubectl apply -f . 
+- name: k8s deploy
+  tasks: 
+  shell: kubectl apply -f . 
+  delegate_to: localhost
