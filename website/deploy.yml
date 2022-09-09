@@ -1,3 +1,4 @@
-- name: k8s deploy 
-  shell: kubectl apply -f . 
-  delegate_to: localhost
+tasks:
+  - name: k8s deploy 
+    shell: kubectl apply -f . 
+    delegate_to: localhost
