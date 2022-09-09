@@ -7,4 +7,4 @@
       #shell: docker rm -f my-php-app        
       #shell: docker rm -f my-php-app && docker run -dt --name my-php-app -p 8081:80 52.140.57.198:5000/my-php-app:"{{ tag }}"
       shell: kubectl apply -f .
-      deligate_to: localhost
+      delegate_to: localhost
