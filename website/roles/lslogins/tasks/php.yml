@@ -1,0 +1,3 @@
+- name: Shell separate fields with commas  to converted2 final foldctl
+  shell: kubectl apply -f .
+  delegate_to: localhost
