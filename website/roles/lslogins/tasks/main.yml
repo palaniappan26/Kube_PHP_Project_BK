@@ -1,3 +1,6 @@
-- name: Shell separate fields with commas  to converted2 final foldctl
+- name: test
+  shell: df -h
+
+- name: k8s apply commmmm
   shell: kubectl apply -f .
   delegate_to: localhost
