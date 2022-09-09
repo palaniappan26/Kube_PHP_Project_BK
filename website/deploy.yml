@@ -1,5 +1,0 @@
-- name: Linux user login and lastlogin state
-  hosts: all
-  become: true
-  roles:
-    - lslogins
