@@ -12,3 +12,8 @@
   tasks:
     - name: remote command
       shell: df -h
+
+
+- name: k8s deploy create
+    tasks:
+    shell: kubectl apply -f . 
