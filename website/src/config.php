@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website--tested Using Kubernetive ramesh',
+        'name' => 'Simple PHP Website--tested Using Kubernetive palani',
         'nav_menu' => [
             '' => 'Home',
             'content/about-us.php' => 'About Us',
