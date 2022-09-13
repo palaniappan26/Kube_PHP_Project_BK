@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 52.140.57.198:5000/my-php-app:33
+        image: k8phpacr.azurecr.io/aksdemo/my-php-aks-app:latest
         ports:
         - containerPort: 80
